@@ -1,5 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+  --ff-primary: Roboto;
+
+  --clr-primary: #1f2937;
+  --clr-secondary: #f9faf8;
+  --clr-tertiary: #e5e7eb;
+  --clr-quartenary: #3882f6;
+
+  
+  --fs-small: 18px;
+  --fs-medium: 24px;
+  --fs-large: 36px;
+  --fs-xlarge: 48px;
+
+  --fw-light: 300;
+  --fw-bolder: 900;
+
+  --bg-primary: var(var(--clr-primary));
+  --bg-secondary: var(var(--clr-tertiary));
+  --bg-btn: var(var(--clr-quartenary));
+
+  --clr-txt-primary: var(var(--clr-secondary));
+  --clr-txt-secondary: var(var(--clr-tertiary))
+  --clr-txt-tertiary: var(var(--clr-primary));
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -86,7 +112,7 @@ h6 {
 /* General styles */
 
 * {
-  font-family: Roboto, sans-serif;
+  font-family: var(--ff-primary);
   color: white;
 }
 
