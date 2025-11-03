@@ -122,6 +122,10 @@ footer {
   background-color: var(--bg-primary);
 }
 
+.navbar, footer {
+  padding: 2rem 0;
+}
+
 /*  Header  */
 
 .navbar {
