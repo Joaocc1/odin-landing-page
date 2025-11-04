@@ -47,7 +47,7 @@
 
 body {
   /* 4. Add accessible line-height */
-  line-height: 1.5;
+  /* line-height: 1.5; */
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
 }
@@ -83,7 +83,7 @@ h6 {
 
 /* 9. Improve line wrapping */
 p {
-  text-wrap: pretty;
+  /* text-wrap: pretty; */
 }
 h1,
 h2,
@@ -91,7 +91,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-wrap: balance;
+  /* text-wrap: balance; */
 }
 
 /*
@@ -106,7 +106,7 @@ h6 {
 
 .center {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 /* General styles */
@@ -137,12 +137,22 @@ footer {
   display: flex;
 }
 
+/* Hero section */
+
 #hero {
   display: flex;
-  gap: 1rem;
+  gap: 4.5rem;
   margin: 6rem 0;
 }
 
 #hero div {
   flex: 1;
+}
+
+.hero-content h1 {
+  font-size: var(--fs-xlarge);
+}
+
+.hero-content p {
+  font-size: var(--fs-small);
 }
