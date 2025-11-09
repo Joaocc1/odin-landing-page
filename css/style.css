@@ -194,3 +194,13 @@ footer {
   color: var(--clr-txt-tertiary);
   text-align: center;
 }
+
+/* Quote section */
+.quote {
+  background-color: var(--bg-secondary);
+  color: var(--clr-txt-tertiary);
+}
+
+.quote-content {
+  padding: 4rem 0;
+}
