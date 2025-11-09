@@ -246,3 +246,9 @@ footer {
   border: 1px var(--clr-secondary) solid;
   height: max-content;
 }
+
+/* Footer */
+.footer {
+  color: var(--clr-txt-primary);
+  padding: 3rem 0;
+}
