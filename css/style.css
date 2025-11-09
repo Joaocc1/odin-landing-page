@@ -126,6 +126,14 @@ footer {
   padding: 2rem 0;
 }
 
+.btn-cta {
+  background-color: var(--bg-btn);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  padding: .25rem 1.5rem;
+}
+
 /*  Header  */
 
 .navbar {
@@ -155,4 +163,5 @@ footer {
 
 .hero-content p {
   font-size: var(--fs-small);
+  margin-bottom: .5rem;
 }
