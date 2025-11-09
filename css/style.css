@@ -8,7 +8,6 @@
   --clr-tertiary: #e5e7eb;
   --clr-quartenary: #3882f6;
 
-  
   --fs-small: 18px;
   --fs-medium: 24px;
   --fs-large: 36px;
@@ -22,7 +21,7 @@
   --bg-btn: var(--clr-quartenary);
 
   --clr-txt-primary: var(--clr-secondary);
-  --clr-txt-secondary: var(--clr-tertiary)
+  --clr-txt-secondary: var(--clr-tertiary);
   --clr-txt-tertiary: var(--clr-primary);
 }
 
@@ -131,7 +130,7 @@ footer {
   outline: 0;
   border: 0;
   border-radius: 5px;
-  padding: .25rem 1.5rem;
+  padding: 0.25rem 1.5rem;
 }
 
 /*  Header  */
@@ -171,6 +170,43 @@ footer {
 
 .hero-content p {
   font-size: var(--fs-small);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
+/* Main section */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.main-heading {
+  color: var(--clr-txt-tertiary);
+  font-size: var(--fs-large);
+  font-weight: var(--fw-bolder);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.card {
+  flex: 0 1 150px;
+  border-radius: 5px;
+}
+
+.card img {
+  border: 3px var(--clr-quartenary) solid;
+  border-radius: 15px;
+}
+
+.card p {
+  padding: 0.5rem 0;
+  color: var(--clr-txt-tertiary);
+  text-align: center;
+}
