@@ -218,6 +218,7 @@ footer {
 
 .quote-content blockquote {
   font-size: var(--fs-large);
+  font-weight: var(--fw-light);
 }
 
 .citation {
