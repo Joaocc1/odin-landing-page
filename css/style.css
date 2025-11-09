@@ -213,5 +213,15 @@ footer {
 }
 
 .quote-content {
-  padding: 4rem 0;
+  padding: 8rem 0;
+}
+
+.quote-content blockquote {
+  font-size: var(--fs-large);
+}
+
+.citation {
+  font-size: var(--fs-medium);
+  text-align: right;
+  font-weight: var(--fw-bolder);
 }
