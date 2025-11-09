@@ -116,14 +116,14 @@ h6 {
   color: white;
 }
 
+li {
+  list-style-type: none;
+}
+
 .header,
 footer {
   display: flex;
   background-color: var(--bg-primary);
-}
-
-.navbar, footer {
-  padding: 2rem 0;
 }
 
 .btn-cta {
@@ -139,10 +139,18 @@ footer {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 0;
 }
 
 .navbar > ul {
   display: flex;
+  gap: 1.5rem;
+}
+
+.logo {
+  font-size: var(--fs-medium);
+  color: var(--clr-txt-primary);
 }
 
 /* Hero section */
@@ -165,3 +173,4 @@ footer {
   font-size: var(--fs-small);
   margin-bottom: .5rem;
 }
+
