@@ -188,6 +188,7 @@ footer {
   justify-content: center;
   gap: 3rem;
   margin: 2rem 0;
+  max-width: 800px;
 }
 
 .card {
@@ -213,7 +214,9 @@ footer {
 }
 
 .quote-content {
-  padding: 8rem 0;
+  max-width: 800px;
+  padding: 8rem 2rem;
+  margin: 0 auto;
 }
 
 .quote-content blockquote {
